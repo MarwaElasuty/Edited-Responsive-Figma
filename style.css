@@ -945,12 +945,12 @@ img[alt="side-logo1"] {
     }
 
     #statistics-left>span:nth-of-type(1) {
-        width: 47%;
+        width: 62%;
         font-size: 24px;
         text-align: left;
     }
     #statistics-left span:nth-of-type(2){
-        width: 50%;
+        width: 88%;
         padding-right: 73px;
 
     }
@@ -995,6 +995,7 @@ img[alt="side-logo1"] {
     #statistics-left>h1 {
         width: 100%;
         font-size: 55px;
+        line-height: 13px;
     }
 
     #statistics-left>span:nth-of-type(1) {
@@ -1017,9 +1018,9 @@ img[alt="side-logo1"] {
         padding-top: 42px;
     }
 
-    #statistics-right h1 {
+    /* #statistics-right h1 {
         padding-right: 157px;
-    }
+    } */
 
 }
 
@@ -1444,9 +1445,9 @@ img[alt="tesla"] {
     margin-bottom: 10px;
 }
 
-#stay-up-footer{
+/* #stay-up-footer{
     padding-top: 25px;
-}
+} */
 
 #icons {
     display: flex;
@@ -1490,11 +1491,14 @@ img[alt="credit"]{
 @media screen and (min-width: 1200px) {
     .footer p {
         font-size: 14px;
+
     }
 
     .footer{
         width: 100%;
         font-size: 25px;
+        text-align: center;
+
     }
 }
 
