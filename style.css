@@ -28,6 +28,7 @@ ul {
 ul li {
 
     margin-left: 40px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -91,6 +92,7 @@ img[alt="humberger-menu"] {
     background-color: #E8F5E9;
     border-style: none;
 }
+
 
 
 /* Navigation bar media query*/
@@ -209,9 +211,10 @@ img[alt="humberger-menu"] {
         display: none;
         width: 31%;
         padding-right: 35px;
-        padding-bottom: 15px;
+        padding-bottom: 50px;
+        padding-top: 18px;
         position: absolute;
-        top: 77px;
+        top: 68px;
         right: 11px;
         background-color: white;
     }
@@ -885,9 +888,11 @@ img[alt="side-logo1"] {
 
 #statistics-left span:nth-of-type(2) {
     color: #919191;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
+    width: 60%;
+    padding-right: 25px;
 }
 
 
@@ -899,9 +904,15 @@ img[alt="side-logo1"] {
     width: 50%;
 }
 
+.main-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    text-align: center;
+}
 
 
-#first-div {
+/* #first-div {
     display: flex;
     justify-content: space-evenly;
 }
@@ -912,11 +923,15 @@ img[alt="side-logo1"] {
     padding-top: 20px;
 }
 
+.right-span{
+    padd
+}
+
 .text-div {
     display: flex;
     justify-content: space-between;
     color: #919191;
-}
+} */
 
 /* .text-div p {
     width: 15%;
@@ -925,7 +940,7 @@ img[alt="side-logo1"] {
 /* statistics media query */
 @media screen and (min-width: 1200px) {
     #statistics-left>h1 {
-        width: 96%;
+        width: 92%;
         font-size: 39px;
     }
 
@@ -934,11 +949,16 @@ img[alt="side-logo1"] {
         font-size: 24px;
         text-align: left;
     }
+    #statistics-left span:nth-of-type(2){
+        width: 50%;
+        padding-right: 73px;
 
-    .text-div p {
+    }
+
+    /* .text-div p {
         width: 50%;
         text-align: center;
-    }
+    } */
 }
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
@@ -978,7 +998,7 @@ img[alt="side-logo1"] {
     }
 
     #statistics-left>span:nth-of-type(1) {
-        width: 48%;
+        width: 50%;
         font-size: 20px;
         text-align: left;
     }
@@ -1178,7 +1198,7 @@ img[alt="side-logo1"] {
     }
 
     .marketing>h2 {
-        width: 80%;
+        width: 92%;
     }
 
     .marketing-cards-div>img {
@@ -1187,13 +1207,13 @@ img[alt="side-logo1"] {
 
     .marketing span:nth-of-type(1) {
         width: 100%;
-        font-size: 12px;
+        font-size: 16px;
         padding-left: 70px;
         padding-right: 70px;
     }
 
     #smaller-span {
-        font-size: 16px;
+        font-size: 40px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -1462,14 +1482,19 @@ img[alt="credit"]{
     padding-left: 15px;
 } */
 
-#clubs{
+/* #clubs{
     padding-left: 10px;
-}
+} */
 
 /* footer media query */
 @media screen and (min-width: 1200px) {
     .footer p {
         font-size: 14px;
+    }
+
+    .footer{
+        width: 100%;
+        font-size: 25px;
     }
 }
 
@@ -1484,7 +1509,8 @@ img[alt="credit"]{
 @media screen and (max-width: 992px) and (min-width:786px) {
     .footer {
         width: 100%;
-        font-size: 15px;
+        text-align: center;
+        font-size: 11px;
     }
 
     .footer>div {
