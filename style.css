@@ -1490,6 +1490,7 @@ img[alt="credit"]{
 /* footer media query */
 @media screen and (min-width: 1200px) {
     .footer p {
+        text-align: center;
         font-size: 14px;
 
     }
