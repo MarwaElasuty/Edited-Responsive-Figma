@@ -165,9 +165,7 @@ img[alt="humberger-menu"] {
         padding-left: 3px;
     }
 
-    .menu-div {
-        padding-left: 313px;
-    }
+    
     #brand-title-div{
         padding-right: 700px;
     }
@@ -365,8 +363,10 @@ img[alt="humberger-menu"] {
 
 #background-text>p {
     /* font-weight: 400; */
-    font-size: 13px;
+    font-size: 12px;
     color: #919191;
+    padding-left: 26px;
+    padding-right: 26px;
 }
 
 /* #background-text>span{
@@ -1003,7 +1003,7 @@ img[alt="side-logo1"] {
     #statistics-left>h1 {
         width: 100%;
         font-size: 55px;
-        line-height: 13px;
+        line-height: 41px;
     }
 
     #statistics-left>span:nth-of-type(1) {
