@@ -48,9 +48,7 @@ img[alt="humberger-menu"] {
 }
 
 .menu-div {
-    position: absolute;
-    top: 24px;
-    left: 585px;
+   padding-left: 30px;
 }
 
 .nav-links-btns {
@@ -224,7 +222,8 @@ img[alt="humberger-menu"] {
     }
 
     .menu-div {
-        padding-left: 304px;
+        left: 737px;
+        top: 24px;
     }
     #brand-title-div{
         padding-right: 700px;
@@ -261,7 +260,10 @@ img[alt="humberger-menu"] {
         display: block;
     }
 
-    .menu-div {}
+    .menu-div {
+        left: 907px;
+        top: 24px;
+    }
 
     #background-text>h1 {
         font-size: 47px;
@@ -304,6 +306,10 @@ img[alt="humberger-menu"] {
 
     #sign-up-btn {
         width: 120px;
+    }
+    .menu-div {
+        left: 907px;
+        top: 24px;
     }
 }
 
@@ -375,6 +381,8 @@ img[alt="humberger-menu"] {
 } */
 
 /* background content media query */
+
+
 
 @media screen and (min-width: 1200px) {
     #background-text>p {
